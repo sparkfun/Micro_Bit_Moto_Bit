@@ -18476,7 +18476,9 @@ Used as a test point connection for pogo pins or other debugging tools.
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-12382" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -19700,7 +19702,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="NDUC-09513"/>
-<attribute name="VALUE" value="4.7µH/±20%/1.5A" constant="no"/>
+<attribute name="VALUE" value="2.2µH/±20%/1.5A" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -20661,6 +20663,90 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Hardware">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+This library contains board components that are not electrical in nature, such as stand-offs, magnets, and Actobotics. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="STAND-OFF">
+<description>&lt;h3&gt;Standoff (#4 Screw)&lt;/h3&gt;
+&lt;p&gt;This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.&lt;/p&gt;
+&lt;h4&gt;Devices Using&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;STAND-OFF&lt;/li&gt;&lt;/ul&gt;</description>
+<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
+<circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
+<hole x="0" y="0" drill="3.302"/>
+<text x="0" y="2.032" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+<package name="STAND-OFF-TIGHT">
+<description>&lt;h3&gt;Standoff (#4 Screw) - Tight fit around screw body&lt;/h3&gt;
+&lt;p&gt;This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.&lt;/p&gt;
+&lt;h4&gt;Devices Using&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;STAND-OFF&lt;/li&gt;&lt;/ul&gt;</description>
+<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
+<circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
+<hole x="0" y="0" drill="3.048"/>
+<text x="0" y="1.651" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.651" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="STAND-OFF">
+<description>&lt;h3&gt;Stand-Off Drill Hole&lt;/h3&gt;</description>
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="STAND-OFF" prefix="H">
+<description>&lt;h3&gt;Stand Off&lt;/h3&gt;
+&lt;p&gt;Drill holes for mechanically mounting via screws, standoffs, etc.&lt;/p&gt;
+&lt;p&gt;Note: Use the keepout ring to avoid running the screw head into surrounding components.
+&lt;h4&gt;Variant Overviews&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;STAND-OFF&lt;/b&gt; - Mechanical footprint for a &lt;b&gt;#4 phillips button head&lt;/b&gt; screw.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;STAND-OFF-TIGHT&lt;/b&gt; - Mechanical footprint for a &lt;b&gt;#4 phillips button head&lt;/b&gt; screw, &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Example SparkFun Products&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10453"&gt;Screw - Phillips Head (1/4", 4-40, 10 pack)&lt;/a&gt; (PRT-10453)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10452"&gt;Screw - Phillips Head (1/2", 4-40, 10 pack)&lt;/a&gt; (PRT-10452)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10451"&gt;Screw - Phillips Head (3/4", 4-40, 10 pack)&lt;/a&gt; (PRT-10451)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10450"&gt;Screw - Phillips Head (1", 4-40, 10 pack)&lt;/a&gt; (PRT-10450)&lt;/li&gt;</description>
+<gates>
+<gate name="G$1" symbol="STAND-OFF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="STAND-OFF">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TIGHT" package="STAND-OFF-TIGHT">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -20675,7 +20761,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_03X2" device="FEMALE_SMD"/>
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_03X2" device="FEMALE_SMD"/>
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_03X2" device="FEMALE_SMD"/>
-<part name="J6" library="SparkFun-Connectors" deviceset="CONN_04" device="SMD_STRAIGHT_COMBO"/>
+<part name="J6" library="SparkFun-Connectors" deviceset="CONN_04" device="SMD_STRAIGHT_COMBO" value="1X04_SMD_STRAIGHT_COMBO"/>
 <part name="GND23" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -20698,7 +20784,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J1" library="SparkFun-Connectors" deviceset="POWER_JACK" device="SMD" value="5.5x2.1mm Barrel"/>
 <part name="U2" library="SparkFun-IC-Power" deviceset="TPS62172" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="L1" library="SparkFun-Coils" deviceset="INDUCTOR" device="-VLF4012AT-2.2UH" value="4.7µH"/>
+<part name="L1" library="SparkFun-Coils" deviceset="INDUCTOR" device="-VLF4012AT-2.2UH" value="2.2µH"/>
 <part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="10UF" device="-1210-50V-20%" value="10uF"/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="22UF" device="-0805-6.3V-20%" value="22uF"/>
@@ -20757,11 +20843,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D1" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="470OHM" device="-0603-1/10W-1%" value="470"/>
 <part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="H2" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
+<part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
+<part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
+<part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="J8" library="SparkFun-Connectors" deviceset="CONN_03X2" device="FEMALE_SMD"/>
+<part name="SUPPLY18" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
+<part name="SUPPLY19" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
+<part name="GND29" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND30" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="80.01" y="171.196" size="1.778" layer="97" rot="R90">±20%/1.5A</text>
+<text x="80.01" y="171.196" size="1.778" layer="97" font="vector" rot="R90">±20%/1.5A</text>
 <wire x1="132.08" y1="185.42" x2="129.54" y2="185.42" width="0.2032" layer="97" style="longdash"/>
 <text x="2.54" y="180.34" size="2.54" layer="97">Power Supply</text>
 <text x="114.3" y="99.06" size="2.54" layer="97">Motor Driver</text>
@@ -20776,8 +20872,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="111.76" y1="147.32" x2="0" y2="147.32" width="0.2032" layer="97" style="longdash"/>
 <wire x1="111.76" y1="55.88" x2="58.42" y2="55.88" width="0.2032" layer="97" style="longdash"/>
 <wire x1="58.42" y1="55.88" x2="0" y2="55.88" width="0.2032" layer="97" style="longdash"/>
-<wire x1="111.76" y1="104.14" x2="187.96" y2="104.14" width="0.2032" layer="97" style="longdash"/>
-<wire x1="187.96" y1="104.14" x2="187.96" y2="185.42" width="0.2032" layer="97" style="longdash"/>
+<wire x1="111.76" y1="104.14" x2="177.8" y2="104.14" width="0.2032" layer="97" style="longdash"/>
+<wire x1="177.8" y1="104.14" x2="177.8" y2="185.42" width="0.2032" layer="97" style="longdash"/>
+<wire x1="177.8" y1="104.14" x2="187.96" y2="104.14" width="0.2032" layer="97" style="longdash"/>
 <wire x1="187.96" y1="104.14" x2="187.96" y2="63.5" width="0.2032" layer="97" style="longdash"/>
 <wire x1="187.96" y1="63.5" x2="187.96" y2="55.88" width="0.2032" layer="97" style="longdash"/>
 <wire x1="187.96" y1="55.88" x2="147.32" y2="55.88" width="0.2032" layer="97" style="longdash"/>
@@ -20793,7 +20890,8 @@ over async. serial. RX of the motor driver is connected to pin 14 and TX is
 connected to pin 13. 
 
 For I2C mode, close JP3. Break trace of JP1 and JP2 and short center pins
-to traces labeled "I2C".</text>
+to traces labeled "I2C". The I2C address is 0x59.</text>
+<text x="7.62" y="172.72" size="1.778" layer="97" font="vector">Max : 11V</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -20801,10 +20899,10 @@ to traces labeled "I2C".</text>
 <instance part="J3" gate="G$1" x="220.98" y="160.02"/>
 <instance part="J4" gate="G$1" x="220.98" y="134.62"/>
 <instance part="J5" gate="G$1" x="220.98" y="106.68"/>
-<instance part="J6" gate="G$1" x="203.2" y="78.74"/>
-<instance part="GND23" gate="1" x="210.82" y="68.58"/>
-<instance part="SUPPLY12" gate="G$1" x="210.82" y="88.9" smashed="yes">
-<attribute name="VALUE" x="211.582" y="91.694" size="1.778" layer="96" align="bottom-center"/>
+<instance part="J6" gate="G$1" x="185.42" y="147.32"/>
+<instance part="GND23" gate="1" x="193.04" y="137.16"/>
+<instance part="SUPPLY12" gate="G$1" x="193.04" y="157.48" smashed="yes">
+<attribute name="VALUE" x="193.802" y="160.274" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="GND20" gate="1" x="210.82" y="152.4"/>
 <instance part="GND25" gate="1" x="231.14" y="127"/>
@@ -20834,8 +20932,11 @@ to traces labeled "I2C".</text>
 <instance part="U4" gate="G$1" x="162.56" y="76.2"/>
 <instance part="SUPPLY6" gate="G$1" x="121.92" y="91.44"/>
 <instance part="SUPPLY7" gate="G$1" x="137.16" y="91.44"/>
-<instance part="J7" gate="G$1" x="228.6" y="78.74"/>
-<instance part="J1" gate="G$1" x="17.78" y="162.56"/>
+<instance part="J7" gate="G$1" x="185.42" y="119.38"/>
+<instance part="J1" gate="G$1" x="17.78" y="162.56" smashed="yes">
+<attribute name="VALUE" x="7.62" y="175.26" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="7.62" y="162.56" size="1.778" layer="95" font="vector"/>
+</instance>
 <instance part="U2" gate="G$1" x="55.88" y="165.1"/>
 <instance part="GND7" gate="1" x="40.64" y="152.4"/>
 <instance part="L1" gate="G$1" x="76.2" y="170.18" smashed="yes" rot="R90">
@@ -20916,6 +21017,16 @@ to traces labeled "I2C".</text>
 <instance part="D1" gate="G$1" x="35.56" y="109.22" rot="R90"/>
 <instance part="R5" gate="G$1" x="25.4" y="109.22"/>
 <instance part="GND28" gate="1" x="43.18" y="104.14"/>
+<instance part="H2" gate="G$1" x="236.22" y="27.94"/>
+<instance part="H3" gate="G$1" x="238.76" y="30.48"/>
+<instance part="H4" gate="G$1" x="238.76" y="27.94"/>
+<instance part="FD3" gate="G$1" x="246.38" y="30.48"/>
+<instance part="FD4" gate="G$1" x="246.38" y="27.94"/>
+<instance part="J8" gate="G$1" x="220.98" y="78.74"/>
+<instance part="SUPPLY18" gate="G$1" x="210.82" y="86.36"/>
+<instance part="SUPPLY19" gate="G$1" x="231.14" y="86.36"/>
+<instance part="GND29" gate="1" x="210.82" y="71.12"/>
+<instance part="GND30" gate="1" x="231.14" y="71.12"/>
 </instances>
 <busses>
 </busses>
@@ -20953,12 +21064,24 @@ to traces labeled "I2C".</text>
 <pinref part="SUPPLY6" gate="G$1" pin="V_BATT"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="J8" gate="G$1" pin="3"/>
+<wire x1="213.36" y1="78.74" x2="210.82" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="78.74" x2="210.82" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="SUPPLY18" gate="G$1" pin="V_BATT"/>
+</segment>
+<segment>
+<pinref part="J8" gate="G$1" pin="4"/>
+<wire x1="228.6" y1="78.74" x2="231.14" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="78.74" x2="231.14" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="SUPPLY19" gate="G$1" pin="V_BATT"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="76.2" x2="210.82" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="76.2" x2="210.82" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="144.78" x2="193.04" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="144.78" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -21139,12 +21262,24 @@ to traces labeled "I2C".</text>
 <wire x1="43.18" y1="109.22" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="J8" gate="G$1" pin="5"/>
+<wire x1="213.36" y1="76.2" x2="210.82" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="76.2" x2="210.82" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="GND29" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J8" gate="G$1" pin="6"/>
+<wire x1="228.6" y1="76.2" x2="231.14" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="76.2" x2="231.14" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="GND30" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="2"/>
-<wire x1="208.28" y1="78.74" x2="210.82" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="78.74" x2="210.82" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="147.32" x2="193.04" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="147.32" x2="193.04" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -21254,8 +21389,8 @@ to traces labeled "I2C".</text>
 </segment>
 <segment>
 <pinref part="J6" gate="G$1" pin="3"/>
-<wire x1="208.28" y1="81.28" x2="213.36" y2="81.28" width="0.1524" layer="91"/>
-<label x="213.36" y="81.28" size="1.27" layer="95" xref="yes"/>
+<wire x1="190.5" y1="149.86" x2="195.58" y2="149.86" width="0.1524" layer="91"/>
+<label x="195.58" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="1"/>
@@ -21272,8 +21407,8 @@ to traces labeled "I2C".</text>
 </segment>
 <segment>
 <pinref part="J6" gate="G$1" pin="4"/>
-<wire x1="208.28" y1="83.82" x2="213.36" y2="83.82" width="0.1524" layer="91"/>
-<label x="213.36" y="83.82" size="1.27" layer="95" xref="yes"/>
+<wire x1="190.5" y1="152.4" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
+<label x="195.58" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
@@ -21325,9 +21460,9 @@ to traces labeled "I2C".</text>
 <label x="162.56" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="137.16" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
-<label x="233.68" y="137.16" size="1.27" layer="95" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="162.56" x2="233.68" y2="162.56" width="0.1524" layer="91"/>
+<label x="233.68" y="162.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ANALOG_0" class="0">
@@ -21368,18 +21503,28 @@ to traces labeled "I2C".</text>
 <label x="99.06" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="BIN1" class="0">
+<net name="SERVO_16" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="P15"/>
-<wire x1="157.48" y1="157.48" x2="162.56" y2="157.48" width="0.1524" layer="91"/>
-<label x="162.56" y="157.48" size="1.27" layer="95" xref="yes"/>
+<pinref part="J8" gate="G$1" pin="1"/>
+<wire x1="213.36" y1="81.28" x2="208.28" y2="81.28" width="0.1524" layer="91"/>
+<label x="208.28" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="BIN2" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="P16"/>
 <wire x1="157.48" y1="160.02" x2="162.56" y2="160.02" width="0.1524" layer="91"/>
 <label x="162.56" y="160.02" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SERVO_15" class="0">
+<segment>
+<pinref part="J8" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="81.28" x2="233.68" y2="81.28" width="0.1524" layer="91"/>
+<label x="233.68" y="81.28" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="P15"/>
+<wire x1="157.48" y1="157.48" x2="162.56" y2="157.48" width="0.1524" layer="91"/>
+<label x="162.56" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AO1" class="0">
@@ -21390,8 +21535,8 @@ to traces labeled "I2C".</text>
 </segment>
 <segment>
 <pinref part="J7" gate="G$1" pin="1"/>
-<wire x1="233.68" y1="76.2" x2="236.22" y2="76.2" width="0.1524" layer="91"/>
-<label x="236.22" y="76.2" size="1.27" layer="95" xref="yes"/>
+<wire x1="190.5" y1="116.84" x2="193.04" y2="116.84" width="0.1524" layer="91"/>
+<label x="193.04" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BO1" class="0">
@@ -21402,8 +21547,8 @@ to traces labeled "I2C".</text>
 </segment>
 <segment>
 <pinref part="J7" gate="G$1" pin="3"/>
-<wire x1="233.68" y1="81.28" x2="236.22" y2="81.28" width="0.1524" layer="91"/>
-<label x="236.22" y="81.28" size="1.27" layer="95" xref="yes"/>
+<wire x1="190.5" y1="121.92" x2="193.04" y2="121.92" width="0.1524" layer="91"/>
+<label x="193.04" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AO2" class="0">
@@ -21414,8 +21559,8 @@ to traces labeled "I2C".</text>
 </segment>
 <segment>
 <pinref part="J7" gate="G$1" pin="2"/>
-<wire x1="233.68" y1="78.74" x2="236.22" y2="78.74" width="0.1524" layer="91"/>
-<label x="236.22" y="78.74" size="1.27" layer="95" xref="yes"/>
+<wire x1="190.5" y1="119.38" x2="193.04" y2="119.38" width="0.1524" layer="91"/>
+<label x="193.04" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BO2" class="0">
@@ -21426,8 +21571,8 @@ to traces labeled "I2C".</text>
 </segment>
 <segment>
 <pinref part="J7" gate="G$1" pin="4"/>
-<wire x1="233.68" y1="83.82" x2="236.22" y2="83.82" width="0.1524" layer="91"/>
-<label x="236.22" y="83.82" size="1.27" layer="95" xref="yes"/>
+<wire x1="190.5" y1="124.46" x2="193.04" y2="124.46" width="0.1524" layer="91"/>
+<label x="193.04" y="124.46" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -21456,12 +21601,14 @@ to traces labeled "I2C".</text>
 <junction x="20.32" y="83.82"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="88.9" x2="10.16" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="88.9" x2="10.16" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="88.9" x2="10.16" y2="86.36" width="0.1524" layer="91"/>
 <junction x="10.16" y="83.82"/>
-<wire x1="10.16" y1="83.82" x2="7.62" y2="83.82" width="0.1524" layer="91"/>
-<label x="7.62" y="83.82" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <junction x="10.16" y="83.82"/>
 <pinref part="U1" gate="G6" pin="VDDD"/>
+<wire x1="10.16" y1="86.36" x2="10.16" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="86.36" x2="7.62" y2="86.36" width="0.1524" layer="91"/>
+<junction x="10.16" y="86.36"/>
+<label x="7.62" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">
