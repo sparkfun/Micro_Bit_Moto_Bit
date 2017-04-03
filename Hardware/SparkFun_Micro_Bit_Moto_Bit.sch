@@ -19310,6 +19310,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.65" y1="-0.35" x2="0.65" y2="0.35" layer="31"/>
 <circle x="-1.5" y="-1" radius="0.22360625" width="0.2032" layer="21"/>
 <circle x="-1.5" y="-1" radius="0.22360625" width="0.127" layer="51"/>
+<text x="-1.905" y="-1.905" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
+<text x="2.54" y="-1.905" size="0.8128" layer="25" rot="R90">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -19557,6 +19559,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-0.5" y="-1.544453125"/>
 <vertex x="-0.5" y="-0.5"/>
 </polygon>
+<text x="-2.54" y="1.905" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -20784,7 +20788,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J1" library="SparkFun-Connectors" deviceset="POWER_JACK" device="SMD" value="5.5x2.1mm Barrel"/>
 <part name="U2" library="SparkFun-IC-Power" deviceset="TPS62172" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="L1" library="SparkFun-Coils" deviceset="INDUCTOR" device="-VLF4012AT-2.2UH" value="2.2µH"/>
+<part name="L1" library="SparkFun-Coils" deviceset="INDUCTOR" device="-VLF4012AT-2.2UH" value="2.2µH/±20%/1.5A"/>
 <part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="10UF" device="-1210-50V-20%" value="10uF"/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="22UF" device="-0805-6.3V-20%" value="22uF"/>
