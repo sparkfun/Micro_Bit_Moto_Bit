@@ -19509,7 +19509,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="PRT-13700"/>
+<attribute name="PROD_ID" value="CONN-13700"/>
 </technology>
 </technologies>
 </device>
