@@ -18583,20 +18583,14 @@ part number 2062-2P from STA</description>
 <text x="0.635" y="-3.175" size="0.4064" layer="25">&gt;NAME</text>
 </package>
 <package name="1X02_RA_FEMALE">
-<wire x1="-2.665" y1="3.935" x2="-2.665" y2="-3.935" width="0.1778" layer="21"/>
+<wire x1="-2.79" y1="4.25" x2="-2.79" y2="-4.25" width="0.1778" layer="21"/>
 <text x="-1.397" y="0.762" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.524" y="-1.27" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<pad name="P$1" x="-1.27" y="3.935" drill="0.89"/>
-<pad name="P$2" x="1.27" y="3.935" drill="0.89"/>
-<pad name="P$3" x="-1.27" y="-3.935" drill="0.89"/>
-<pad name="P$4" x="1.27" y="-3.935" drill="0.89"/>
-<wire x1="2.665" y1="-3.935" x2="2.665" y2="3.935" width="0.1778" layer="21"/>
-<wire x1="-2.665" y1="3.935" x2="-2.16" y2="3.935" width="0.1778" layer="21"/>
-<wire x1="-0.38" y1="3.935" x2="0.38" y2="3.935" width="0.1778" layer="21"/>
-<wire x1="2.665" y1="3.935" x2="2.16" y2="3.935" width="0.1778" layer="21"/>
-<wire x1="-2.665" y1="-3.935" x2="-2.16" y2="-3.935" width="0.1778" layer="21"/>
-<wire x1="-0.38" y1="-3.935" x2="0.38" y2="-3.935" width="0.1778" layer="21"/>
-<wire x1="2.665" y1="-3.935" x2="2.16" y2="-3.935" width="0.1778" layer="21"/>
+<wire x1="2.79" y1="4.25" x2="2.79" y2="-4.25" width="0.1778" layer="21"/>
+<wire x1="-2.79" y1="4.25" x2="2.79" y2="4.25" width="0.1778" layer="21"/>
+<wire x1="-2.79" y1="-4.25" x2="2.79" y2="-4.25" width="0.1778" layer="21"/>
+<pad name="2" x="-1.27" y="-5.85" drill="0.8"/>
+<pad name="1" x="1.27" y="-5.85" drill="0.8"/>
 </package>
 </packages>
 <symbols>
@@ -19508,13 +19502,15 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 </technology>
 </technologies>
 </device>
-<device name="SMD_RA_FEMALE" package="1X02_RA_FEMALE">
+<device name="PTH_RA_FEMALE" package="1X02_RA_FEMALE">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1 P$3"/>
-<connect gate="G$1" pin="2" pad="P$2 P$4"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="PRT-13700"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -21746,8 +21742,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J9" library="SparkFun-Connectors" deviceset="CONN_03X2" device="FEMALE_SMD"/>
 <part name="GND26" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND30" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J4" library="SparkFun-Connectors" deviceset="CONN_02" device="SMD_RA_FEMALE"/>
-<part name="J5" library="SparkFun-Connectors" deviceset="CONN_02" device="SMD_RA_FEMALE"/>
+<part name="J4" library="SparkFun-Connectors" deviceset="CONN_02" device="PTH_RA_FEMALE"/>
+<part name="J5" library="SparkFun-Connectors" deviceset="CONN_02" device="PTH_RA_FEMALE"/>
 <part name="H1" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
