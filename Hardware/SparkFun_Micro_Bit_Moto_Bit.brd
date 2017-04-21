@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -154,25 +154,33 @@
 </layers>
 <board>
 <plain>
-<wire x1="58.42" y1="0" x2="58.42" y2="53.34" width="0.2032" layer="20"/>
-<wire x1="0" y1="53.34" x2="0" y2="0" width="0.2032" layer="20"/>
+<wire x1="2.54" y1="0" x2="55.88" y2="0" width="0.2032" layer="20"/>
+<wire x1="55.88" y1="0" x2="58.42" y2="2.54" width="0.2032" layer="20" curve="90"/>
+<wire x1="46.736" y1="53.34" x2="55.88" y2="53.34" width="0.2032" layer="20"/>
+<wire x1="55.88" y1="53.34" x2="58.42" y2="50.8" width="0.2032" layer="20" curve="-90"/>
+<wire x1="58.42" y1="50.8" x2="58.42" y2="2.54" width="0.2032" layer="20"/>
+<wire x1="0" y1="2.54" x2="0" y2="50.8" width="0.2032" layer="20"/>
+<wire x1="0" y1="50.8" x2="2.54" y2="53.34" width="0.2032" layer="20" curve="-90"/>
+<wire x1="2.54" y1="53.34" x2="11.684" y2="53.34" width="0.2032" layer="20"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="0.2032" layer="20" curve="90"/>
 <text x="24.13" y="-31.75" size="1.778" layer="51" font="vector" ratio="15">Alex Wende</text>
-<text x="56.261" y="0.381" size="1.27" layer="16" font="vector" ratio="15" rot="MR0" align="bottom-center">v01</text>
+<text x="54.864" y="0.381" size="1.27" layer="16" font="vector" ratio="15" rot="MR0" align="bottom-center">v01</text>
 <text x="-17.78" y="-49.53" size="1.27" layer="51" font="vector" ratio="15">- Solder mask color : Gloss Black</text>
-<wire x1="0" y1="0" x2="58.42" y2="0" width="0.2032" layer="20"/>
-<wire x1="58.42" y1="59.69" x2="46.736" y2="59.69" width="0.2032" layer="20"/>
+<wire x1="58.42" y1="74.93" x2="58.42" y2="60.96" width="0.2032" layer="20"/>
+<wire x1="58.42" y1="60.96" x2="57.15" y2="59.69" width="0.2032" layer="20" curve="-90"/>
+<wire x1="57.15" y1="59.69" x2="46.736" y2="59.69" width="0.2032" layer="20"/>
 <wire x1="46.736" y1="59.69" x2="45.72" y2="58.674" width="0.2032" layer="20"/>
 <wire x1="45.72" y1="58.674" x2="45.72" y2="54.356" width="0.2032" layer="20"/>
 <wire x1="45.72" y1="54.356" x2="46.736" y2="53.34" width="0.2032" layer="20"/>
-<wire x1="46.736" y1="53.34" x2="58.42" y2="53.34" width="0.2032" layer="20"/>
-<wire x1="0" y1="53.34" x2="11.684" y2="53.34" width="0.2032" layer="20"/>
 <wire x1="11.684" y1="53.34" x2="12.7" y2="54.356" width="0.2032" layer="20"/>
 <wire x1="12.7" y1="54.356" x2="12.7" y2="58.674" width="0.2032" layer="20"/>
 <wire x1="12.7" y1="58.674" x2="11.684" y2="59.69" width="0.2032" layer="20"/>
-<wire x1="11.684" y1="59.69" x2="0" y2="59.69" width="0.2032" layer="20"/>
-<wire x1="0" y1="59.69" x2="0" y2="76.2" width="0.2032" layer="20"/>
-<wire x1="0" y1="76.2" x2="58.42" y2="76.2" width="0.2032" layer="20"/>
-<wire x1="58.42" y1="76.2" x2="58.42" y2="59.69" width="0.2032" layer="20"/>
+<wire x1="11.684" y1="59.69" x2="1.27" y2="59.69" width="0.2032" layer="20"/>
+<wire x1="1.27" y1="59.69" x2="0" y2="60.96" width="0.2032" layer="20" curve="-90"/>
+<wire x1="0" y1="60.96" x2="0" y2="74.93" width="0.2032" layer="20"/>
+<wire x1="0" y1="74.93" x2="1.27" y2="76.2" width="0.2032" layer="20" curve="-90"/>
+<wire x1="1.27" y1="76.2" x2="57.15" y2="76.2" width="0.2032" layer="20"/>
+<wire x1="57.15" y1="76.2" x2="58.42" y2="74.93" width="0.2032" layer="20" curve="-90"/>
 <text x="3.556" y="49.784" size="0.889" layer="21" font="vector" ratio="15" rot="R180" align="center-left">P0</text>
 <text x="9.144" y="49.784" size="0.889" layer="21" font="vector" ratio="15" align="center-left">P1</text>
 <text x="15.621" y="49.784" size="0.889" layer="21" font="vector" ratio="15" rot="R180" align="center-left">P2</text>
@@ -4280,8 +4288,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.3" value="SFE_LOGO_NAME_FLAME.3_INCH" x="46.99" y="41.91" rot="MR0"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="29.083" y="6.477" rot="MR0"/>
-<element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="0.762" y="0.889"/>
-<element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="57.658" y="51.308"/>
+<element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="1.27" y="1.27"/>
+<element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="57.15" y="52.07"/>
 <element name="U1" library="SparkFun-IC-Microcontroller" package="QFN-40" value="CY8C4245LQI-483" x="43.434" y="21.209" rot="R270">
 <attribute name="PROD_ID" value="IC-13292" x="-8.636" y="107.569" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
@@ -4338,8 +4346,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="H2" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="19.21" y="55.88"/>
 <element name="H3" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="9.21" y="5.88"/>
 <element name="H4" library="SparkFun-Hardware" package="STAND-OFF" value="STAND-OFF" x="49.21" y="5.88"/>
-<element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="0.762" y="0.889" rot="MR0"/>
-<element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="57.658" y="51.308" rot="MR0"/>
+<element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="1.27" y="1.27" rot="MR0"/>
+<element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="57.15" y="52.07" rot="MR0"/>
 <element name="J9" library="SparkFun-Connectors" package="2X3_SMD" value="" x="42.545" y="45.72" rot="R270">
 <attribute name="PROD_ID" value="CONN-11290" x="-100.965" y="190.5" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 </element>
@@ -4416,44 +4424,60 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="J9" pad="5"/>
 <contactref element="J9" pad="6"/>
 <polygon width="0.254" layer="1" isolate="0.254" rank="2">
-<vertex x="0" y="76.2"/>
-<vertex x="58.42" y="76.2"/>
-<vertex x="58.42" y="59.69"/>
+<vertex x="0" y="60.96"/>
+<vertex x="0" y="74.93" curve="-90"/>
+<vertex x="1.27" y="76.2"/>
+<vertex x="57.15" y="76.2" curve="-90"/>
+<vertex x="58.42" y="74.93"/>
+<vertex x="58.42" y="60.96" curve="-90"/>
+<vertex x="57.15" y="59.69"/>
 <vertex x="46.736" y="59.69"/>
 <vertex x="45.72" y="58.674"/>
 <vertex x="45.72" y="54.356"/>
 <vertex x="46.736" y="53.34"/>
-<vertex x="58.42" y="53.34"/>
-<vertex x="58.42" y="0"/>
-<vertex x="0" y="0"/>
-<vertex x="0" y="53.34"/>
+<vertex x="55.88" y="53.34" curve="-90"/>
+<vertex x="58.42" y="50.8"/>
+<vertex x="58.42" y="2.54" curve="-90"/>
+<vertex x="55.88" y="0"/>
+<vertex x="2.54" y="0" curve="-90"/>
+<vertex x="0" y="2.54"/>
+<vertex x="0" y="50.8" curve="-90"/>
+<vertex x="2.54" y="53.34"/>
 <vertex x="11.684" y="53.34"/>
 <vertex x="12.7" y="54.356"/>
 <vertex x="12.7" y="58.674"/>
 <vertex x="11.684" y="59.69"/>
-<vertex x="0" y="59.69"/>
+<vertex x="1.27" y="59.69" curve="-90"/>
 </polygon>
 <wire x1="40.434" y1="19.459" x2="41.684" y2="19.459" width="0.254" layer="1"/>
 <wire x1="41.684" y1="19.459" x2="43.434" y2="21.209" width="0.254" layer="1"/>
 <wire x1="44.184" y1="24.209" x2="44.184" y2="21.959" width="0.254" layer="1"/>
 <wire x1="44.184" y1="21.959" x2="43.434" y2="21.209" width="0.254" layer="1"/>
 <polygon width="0.254" layer="16" isolate="0.254" rank="2">
-<vertex x="58.42" y="0"/>
-<vertex x="0" y="0"/>
-<vertex x="0" y="53.34"/>
+<vertex x="46.736" y="53.34"/>
+<vertex x="55.88" y="53.34" curve="-90"/>
+<vertex x="58.42" y="50.8"/>
+<vertex x="58.42" y="2.54" curve="-90"/>
+<vertex x="55.88" y="0"/>
+<vertex x="2.54" y="0" curve="-90"/>
+<vertex x="0" y="2.54"/>
+<vertex x="0" y="50.8" curve="-90"/>
+<vertex x="2.54" y="53.34"/>
 <vertex x="11.684" y="53.34"/>
 <vertex x="12.7" y="54.356"/>
 <vertex x="12.7" y="58.674"/>
 <vertex x="11.684" y="59.69"/>
-<vertex x="0" y="59.69"/>
-<vertex x="0" y="76.2"/>
-<vertex x="58.42" y="76.2"/>
-<vertex x="58.42" y="59.69"/>
+<vertex x="1.27" y="59.69" curve="-90"/>
+<vertex x="0" y="60.96"/>
+<vertex x="0" y="74.93" curve="-90"/>
+<vertex x="1.27" y="76.2"/>
+<vertex x="57.15" y="76.2" curve="-90"/>
+<vertex x="58.42" y="74.93"/>
+<vertex x="58.42" y="60.96" curve="-90"/>
+<vertex x="57.15" y="59.69"/>
 <vertex x="46.736" y="59.69"/>
 <vertex x="45.72" y="58.674"/>
 <vertex x="45.72" y="54.356"/>
-<vertex x="46.736" y="53.34"/>
-<vertex x="58.42" y="53.34"/>
 </polygon>
 <wire x1="40.434" y1="19.459" x2="39.624" y2="19.459" width="0.254" layer="1"/>
 <wire x1="39.624" y1="19.459" x2="39.624" y2="19.558" width="0.254" layer="1"/>
@@ -5068,11 +5092,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,1,6e03dbc038edc7d6"/>
 <approved hash="19,1,a4288c5a8c17a465"/>
 <approved hash="19,1,561832b4734117ed"/>
-<approved hash="19,1,5621d5992b86e2c6"/>
-<approved hash="19,1,435cd7b929a0f659"/>
-<approved hash="5,1,fb0f7cedb3a02fe7"/>
 <approved hash="19,1,7ec3d45d2ac6ca60"/>
 <approved hash="19,1,6cfed3252c2cdb6b"/>
+<approved hash="19,1,435cd7b929a0f659"/>
+<approved hash="5,1,fb0f7cedb3a02fe7"/>
+<approved hash="19,1,5621d5992b86e2c6"/>
 </errors>
 </board>
 </drawing>
