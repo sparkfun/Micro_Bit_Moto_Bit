@@ -21656,9 +21656,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="J6" library="SparkFun-Connectors" deviceset="CONN_03X2" device="FEMALE_SMD"/>
-<part name="J7" library="SparkFun-Connectors" deviceset="CONN_03X2" device="FEMALE_SMD"/>
-<part name="J8" library="SparkFun-Connectors" deviceset="CONN_03X2" device="FEMALE_SMD"/>
+<part name="J6" library="SparkFun-Connectors" deviceset="CONN_03X2" device="SMT"/>
+<part name="J7" library="SparkFun-Connectors" deviceset="CONN_03X2" device="SMT"/>
+<part name="J8" library="SparkFun-Connectors" deviceset="CONN_03X2" device="SMT"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_04" device="SMD_STRAIGHT_COMBO"/>
 <part name="GND22" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -21739,7 +21739,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
-<part name="J9" library="SparkFun-Connectors" deviceset="CONN_03X2" device="FEMALE_SMD"/>
+<part name="J9" library="SparkFun-Connectors" deviceset="CONN_03X2" device="SMT"/>
 <part name="GND26" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND30" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_02" device="PTH_RA_FEMALE"/>
@@ -21763,7 +21763,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="193.04" y="177.8" size="2.54" layer="97">Sensor Connections</text>
 <text x="114.3" y="180.34" size="2.54" layer="97">micro:bit</text>
 <text x="166.37" y="11.43" size="2.54" layer="94">Alex Wende</text>
-<text x="238.76" y="7.62" size="2.54" layer="94">v01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">v10</text>
 <text x="2.54" y="142.24" size="2.54" layer="97">PSoC</text>
 <wire x1="111.76" y1="55.88" x2="111.76" y2="104.14" width="0.2032" layer="97" style="longdash"/>
 <wire x1="111.76" y1="104.14" x2="111.76" y2="147.32" width="0.2032" layer="97" style="longdash"/>
