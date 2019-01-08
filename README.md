@@ -10,7 +10,7 @@ The SparkFun moto:bit is a fully loaded “carrier” board for the micro:bit th
 Repository Contents
 -------------------
 
-* **/Firmware** - Example code used in the micro:bot Kit Experiment Guide
+* **/Firmware** - Example code used in the micro:bot Kit Experiment Guide. While they are compiled HEX codes, you can modify the example code once they are imported into MakeCode editor.
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Production panel files (.brd)
 
