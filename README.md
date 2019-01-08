@@ -10,13 +10,14 @@ The SparkFun moto:bit is a fully loaded “carrier” board for the micro:bit th
 Repository Contents
 -------------------
 
+* **/Firmware** - Example code used in the micro:bot Kit Experiment Guide
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Production panel files (.brd)
 
 Documentation
 --------------
 * **[Library](https://github.com/sparkfun/pxt-moto-bit)** - PXT gamer:bit firmware
-* **[Hookup Guide]()** - Basic hookup guide.
+* **[micro:bot Kit Experiment Guide](https://learn.sparkfun.com/tutorials/microbot-kit-experiment-guide/)** - Experiment guide using the moto:bit carrier board.
 
 License Information
 -------------------
