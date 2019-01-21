@@ -10,7 +10,7 @@ The SparkFun moto:bit is a fully loaded “carrier” board for the micro:bit th
 Repository Contents
 -------------------
 
-* **/Firmware** - Example code used in the micro:bot Kit Experiment Guide. While they are compiled HEX codes, you can modify the example code once they are imported into MakeCode editor.
+* **/Firmware** - Example code used in the micro:bot Kit Experiment Guide and Wireless Remote Control with micro:bit tutorials. While they are compiled HEX codes, you can modify the example code once they are imported into MakeCode editor.
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Production panel files (.brd)
 
@@ -18,6 +18,7 @@ Documentation
 --------------
 * **[Library](https://github.com/sparkfun/pxt-moto-bit)** - PXT gamer:bit firmware
 * **[micro:bot Kit Experiment Guide](https://learn.sparkfun.com/tutorials/microbot-kit-experiment-guide/)** - Experiment guide using the moto:bit carrier board.
+* **[Wireless Remote Control with micro:bit](https://learn.sparkfun.com/tutorials/wireless-remote-control-with-microbit)** - Project guide using the micro:bot and micro:arcade kits. By utilizing the radio blocks, you can wirelessly control the micro:bot using the gamer:bit.
 
 License Information
 -------------------
