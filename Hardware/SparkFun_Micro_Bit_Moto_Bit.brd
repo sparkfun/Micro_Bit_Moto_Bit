@@ -48,7 +48,7 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
@@ -4178,7 +4178,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="A" x="-0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
 <text x="0" y="0.635" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.635" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="1.5875" y1="0.47625" x2="1.5875" y2="-0.47625" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="0.47625" x2="1.5875" y2="-0.47625" width="0.2032" layer="21"/>
 <wire x1="0.15875" y1="0.47625" x2="0.15875" y2="0" width="0.127" layer="51"/>
 <wire x1="0.15875" y1="0" x2="0.15875" y2="-0.47625" width="0.127" layer="51"/>
 <wire x1="0.15875" y1="0" x2="-0.15875" y2="0.3175" width="0.127" layer="51"/>
@@ -9344,11 +9344,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="IC-13342" x="104.14" y="8.255" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="30.72" y="25.273" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-left"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" package="POWER_JACK_PTH_LOCK" value="POWER_JACKPTH_LOCK" x="-2.54" y="18.669" smashed="yes" rot="R270">
-<attribute name="NAME" x="-0.381" y="20.2438" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
-<attribute name="PROD_ID" value="CONN-08197" x="-27.94" y="56.769" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="SF_ID" value="PRT-00119" x="-27.94" y="56.769" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="VALUE" x="-1.397" y="20.574" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
+<element name="J1" library="SparkFun-Connectors" package="POWER_JACK_PTH_LOCK" value="POWER_JACKPTH_LOCK" x="0" y="18.669" smashed="yes" rot="R270">
+<attribute name="NAME" x="2.159" y="20.2438" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-08197" x="-25.4" y="56.769" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="SF_ID" value="PRT-00119" x="-25.4" y="56.769" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="VALUE" x="1.143" y="20.574" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="U2" library="SparkFun-IC-Power" package="WSON-8-PAD" value="TPS62172" x="30.226" y="16.129" smashed="yes" rot="R270">
 <attribute name="NAME" x="28.321" y="18.034" size="0.8128" layer="25"/>
@@ -10178,21 +10178,23 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="38.354" y1="45.72" x2="40.005" y2="45.72" width="0.8128" layer="1"/>
 <wire x1="37.338" y1="39.070753125" x2="19.990490625" y2="39.070753125" width="0.8128" layer="1"/>
 <wire x1="19.990490625" y1="39.070753125" x2="17.907" y2="36.9872625" width="0.8128" layer="1"/>
-<wire x1="17.907" y1="36.9872625" x2="17.907" y2="16.106" width="0.8128" layer="1"/>
+<wire x1="17.907" y1="36.9872625" x2="17.907" y2="20.32" width="0.8128" layer="1"/>
 <contactref element="J9" pad="4"/>
 <contactref element="C11" pad="1"/>
 <contactref element="U4" pad="1"/>
 <contactref element="C10" pad="1"/>
+<wire x1="25.781" y1="16.106" x2="19.2" y2="16.106" width="0.8128" layer="1"/>
+<wire x1="19.2" y1="16.106" x2="17.907" y2="17.399" width="0.8128" layer="1"/>
+<wire x1="17.907" y1="17.399" x2="17.907" y2="18.669" width="0.8128" layer="1"/>
 <wire x1="34.821" y1="27.432" x2="34.8116" y2="27.432" width="0.8128" layer="1"/>
 <wire x1="34.8116" y1="30.6206" x2="34.8116" y2="27.432" width="0.8128" layer="1"/>
 <wire x1="34.821" y1="27.432" x2="34.821" y2="25.146" width="0.8128" layer="1"/>
 <wire x1="37.338" y1="39.070753125" x2="37.338" y2="33.147" width="0.8128" layer="1"/>
 <wire x1="30.46" y1="25.002890625" x2="30.46" y2="24.545" width="0.254" layer="1"/>
-<wire x1="25.781" y1="16.106" x2="17.907" y2="16.106" width="0.8128" layer="1"/>
-<wire x1="11.3378" y1="18.669" x2="13.9008" y2="16.106" width="0.8128" layer="1"/>
-<wire x1="13.9008" y1="16.106" x2="17.907" y2="16.106" width="0.8128" layer="1"/>
 <wire x1="37.338" y1="33.147" x2="34.8116" y2="30.6206" width="0.8128" layer="1"/>
 <wire x1="40.005" y1="45.72" x2="45.085" y2="45.72" width="0.254" layer="1"/>
+<wire x1="13.8778" y1="18.669" x2="17.907" y2="18.669" width="0.8128" layer="1"/>
+<wire x1="17.907" y1="18.669" x2="17.907" y2="20.32" width="0.8128" layer="1"/>
 </signal>
 <signal name="U2.5">
 <contactref element="U1" pad="6"/>
