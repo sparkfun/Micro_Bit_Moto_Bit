@@ -9493,8 +9493,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$2" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="" x="38.1" y="1.27" smashed="yes"/>
 <element name="S1" library="SparkFun-Switches" package="SWITCH_SPDT_PTH_11.6X4.0MM" value="" x="29.083" y="8.89" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.083" y="11.303" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="SWCH-08261" x="29.083" y="8.89" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="SF_SKU" value="COM-00102" x="29.083" y="8.89" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="SWCH-13151" x="29.083" y="8.89" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="29.083" y="6.477" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="U$3" library="Micro_Bit_Parts" package="LOGO-MOTOBIT" value="" x="16.764" y="1.27" smashed="yes"/>
