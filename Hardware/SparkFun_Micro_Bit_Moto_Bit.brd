@@ -9402,7 +9402,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="U3" library="SparkFun-Connectors" package="MICRO:BIT-RA_SMD" value="micro:bit" x="29.21" y="69.469" smashed="yes">
 <attribute name="NAME" x="0.762" y="78.359" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-" x="3.81" y="50.419" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="PROD_ID" value="CONN-14679" x="3.81" y="50.419" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="54.356" y="78.359" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="U4" library="SparkFun-IC-Special-Function" package="WSON-12" value="DRV8835" x="29.21" y="23.495" smashed="yes" rot="R180">
